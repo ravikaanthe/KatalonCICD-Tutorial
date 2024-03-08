@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestOpsIntegration" time="26.463" tests="1" failures="0" errors="0">
+   <testsuite name="TestOpsIntegration" tests="1" failures="0" errors="0" time="26.463" skipped="0" timestamp="2024-03-08 14:06:39" hostname="ravik - DESKTOP-BRLKRAA" id="Test Suites/TestOpsIntegration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ravik\\git\\KatalonCICD-Tutorial\\Reports\\20240308_140615\\TestOpsIntegration\\20240308_140616"/>
+         <property name="logFiles" value="C:\\Users\\ravik\\git\\KatalonCICD-Tutorial\\Reports\\20240308_140615\\TestOpsIntegration\\20240308_140616\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ravik - DESKTOP-BRLKRAA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.92"/>
+         <property name="sessionId" value="6098ee65c6474cb23becd5e814bfdf8a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestOpsIntegration/TestOpsTesting" time="25.409" classname="Test Cases/TestOpsIntegration/TestOpsTesting" status="PASSED">
+         <system-out><![CDATA[2024-03-08 14:06:40 - [TEST_CASE][PASSED] - Test Cases/TestOpsIntegration/TestOpsTesting: Test Cases/TestOpsIntegration/TestOpsTesting
+
+2024-03-08 14:06:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-03-08 14:06:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-03-08 14:06:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-03-08 14:06:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-03-08 14:06:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-03-08 14:06:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-03-08 14:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-03-08 14:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-03-08 14:06:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username'
+
+2024-03-08 14:06:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username'
+
+2024-03-08 14:06:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password'
+
+2024-03-08 14:06:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password'
+
+2024-03-08 14:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-03-08 14:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-03-08 14:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2024-03-08 14:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2024-03-08 14:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2024-03-08 14:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2024-03-08 14:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_22")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_22' is clicked on
+
+2024-03-08 14:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_22' is clicked on
+
+2024-03-08 14:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2024-03-08 14:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2024-03-08 14:07:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment"), "Appointment"): Text 'Appointment' is set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2024-03-08 14:07:02 - [MESSAGE][PASSED] - Text 'Appointment' is set on object 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2024-03-08 14:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2024-03-08 14:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2024-03-08 14:07:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-03-08 14:07:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-08 14:06:39 - [TEST_SUITE][PASSED] - TestOpsIntegration: Test Cases/TestOpsIntegration/TestOpsTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
