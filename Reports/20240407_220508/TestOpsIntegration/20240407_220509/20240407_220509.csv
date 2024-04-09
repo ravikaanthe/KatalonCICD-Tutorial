@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOpsIntegration,Windows - Edge Chromium 114,,,2024-04-07 22:05:15,2024-04-07 22:06:01,46.761s,PASSED
+,,,,,,,
+Test Cases/TestOpsIntegration/TestOpsTesting,Windows - Edge Chromium 114,,,2024-04-07 22:05:15,2024-04-07 22:06:01,46.319s,PASSED
+"openBrowser("""")",Windows - Edge Chromium 114,,,2024-04-07 22:05:16,2024-04-07 22:05:40,24.494s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Edge Chromium 114,,,2024-04-07 22:05:40,2024-04-07 22:05:41,1.193s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:41,2024-04-07 22:05:43,1.854s,PASSED
+"setText(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Edge Chromium 114,,,2024-04-07 22:05:43,2024-04-07 22:05:46,3.253s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Edge Chromium 114,,,2024-04-07 22:05:46,2024-04-07 22:05:48,1.893s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Login""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:48,2024-04-07 22:05:50,1.726s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Medicaid_programs""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:50,2024-04-07 22:05:51,1.380s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:51,2024-04-07 22:05:53,1.479s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_22""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:53,2024-04-07 22:05:54,1.258s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:54,2024-04-07 22:05:55,1.376s,PASSED
+"setText(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment"")",Windows - Edge Chromium 114,,,2024-04-07 22:05:55,2024-04-07 22:05:58,2.720s,PASSED
+"click(findTestObject(""Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment""))",Windows - Edge Chromium 114,,,2024-04-07 22:05:58,2024-04-07 22:06:00,1.644s,PASSED
+closeBrowser(),Windows - Edge Chromium 114,,,2024-04-07 22:06:00,2024-04-07 22:06:01,1.490s,PASSED

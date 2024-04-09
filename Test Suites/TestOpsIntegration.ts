@@ -15,7 +15,14 @@
       <guid>92ebcff3-c456-4936-9c81-44be16ce2483</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestOpsIntegration/TestOpsTesting</testCaseId>
+      <testCaseId>Test Cases/TestOpsIntegration/TestOpsTesting 01</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43089195-1277-44f9-8387-9ca51f83df74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestOpsIntegration/TestOpsTesting 02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

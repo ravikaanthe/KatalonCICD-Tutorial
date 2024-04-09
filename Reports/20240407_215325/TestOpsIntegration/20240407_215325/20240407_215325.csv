@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOpsIntegration,,,,2024-04-07 21:53:32,2024-04-07 21:53:41,8.731s,FAILED
+,,,,,,,
+Test Cases/TestOpsIntegration/TestOpsTesting,,,,2024-04-07 21:53:39,2024-04-07 21:53:41,1.510s,FAILED
+"openBrowser("""")",,,,2024-04-07 21:53:39,2024-04-07 21:53:41,1.485s,FAILED
